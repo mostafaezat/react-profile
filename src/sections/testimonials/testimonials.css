@@ -1,6 +1,7 @@
 .container.test-container {
   width: 40%;
   padding-bottom: 4rem;
+  text-align: center;
 }
 .client-avatar {
   width: 4rem;
@@ -21,26 +22,25 @@
   color: var(--color-gray);
   display: block;
   font-weight: 300;
-  width: 80%;
+  width: 90%;
   margin: 0.8rem auto 0;
-}
-.swiper-pagination-bullet .swiper-pagination-bullet-active{
-    
 }
 /* ==========media queries medium======= */
 @media screen and (max-width: 1024px) {
-  .test-container {
-    width:60%;
-    /* width: var(--container-width-md); */
 
+  .container.test-container {
+    width: var(--container-width-md);
   }
 }
 /* ==========media queries small======= */
 @media screen and (max-width: 600px) {
-  .test-container {
+  .testimonial {
     width: var(--container-width-sm);
   }
   .client-review {
+    width: var(--container-width-sm);
+  }
+  .container.test-container {
     width: var(--container-width-sm);
   }
 }

@@ -5,13 +5,13 @@ import { AiFillFacebook } from "react-icons/ai";
 const HeaderSocials = () => {
   return (
     <div className="header-socials">
-      <a href="https;//linkedin.com" target="_blank">
+      <a href="https://Linkedin.com" target="_blank" rel="noreferrer">
         <BsLinkedin />
       </a>
-      <a href="https;//linkedin.com" target="_blank">
+      <a href="https://Github.com" target="_blank" rel="noreferrer">
         <AiOutlineGithub />
       </a>
-      <a href="https;//linkedin.com" target="_blank">
+      <a href="https://Facebook.com" target="_blank" rel="noreferrer">
         <AiFillFacebook />
       </a>
     </div>

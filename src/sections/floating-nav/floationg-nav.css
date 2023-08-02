@@ -3,26 +3,30 @@ nav {
   width: max-content;
   padding: 0.6rem 1.6rem;
   position: fixed;
-  bottom: 3rem;
+  bottom: 2rem;
   left: 50%;
   transform: translateX(-50%);
   display: flex;
   gap: 1.5rem;
   border-radius: 1.5rem;
   z-index: 5;
-  backdrop-filter: blur(0.8rem);
+  backdrop-filter: blur(0.6rem);
 }
 nav a {
   background: transparent;
-  padding: 0.4rem 1rem;
+  padding: .6rem 1rem .3rem 1rem;
   color: var(--color-light);
   font-size: 1.4rem;
-  border-radius: 50%;
+  -o-border-radius: 80%;
+  -webkit-border-radius: 80%;
+  -moz-border-radius: 80%;
+  -ms-border-radius: 80%;
+  border-radius: 80%;
 }
 nav a:hover {
   background: rgba(0, 0, 0, 0.5);
 }
 nav a.active {
-  background: var(--color-bg);
-  color: var(--color-white);
+  background: var(--color-primary);
+  color: var(--color-bg);
 }
